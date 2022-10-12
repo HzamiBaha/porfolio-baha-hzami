@@ -2,7 +2,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
 /*=============== VARIABLES CSS ===============*/
+
 :root {
+   overflow-x: clip;
   --header-height: 3rem;
 
   /*========== Colors ==========*/
@@ -73,10 +75,9 @@
 html {
   scroll-behavior: smooth;
 }
-.main{
+
+.main {
   width: 100vw;
-  position: absolute;
-  top: 0;
 }
 
 body,
@@ -207,8 +208,7 @@ img {
   }
 }
 
-@media screen and (max-width: 576px) {
-}
+@media screen and (max-width: 576px) {}
 
 /* For small devices */
 @media screen and (max-width: 350px) {
