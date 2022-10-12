@@ -73,6 +73,11 @@
 html {
   scroll-behavior: smooth;
 }
+.main{
+  width: 100vw;
+  position: absolute;
+  top: 0;
+}
 
 body,
 button,
