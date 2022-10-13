@@ -127,6 +127,7 @@ img {
 .section__title {
   font-size: var(--h1-font-size);
   color: var(--title-color);
+  margin-bottom: var(--mb-0-75);
 }
 
 .section__subtitle {
