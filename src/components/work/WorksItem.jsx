@@ -8,14 +8,14 @@ const WorksItem = ({ item }) => {
             {item.category === "web" ?
 
                 <div className="work__links">
-                    <a href="" className="work__button"> Demo
+                    <a href={item.link} className="work__button" target="_blank"> Demo
                         <i className="bx bx-right-arrow-alt work__button-icon"></i></a>
-                    <a href="" className="work__repo">
+                    <a href={item.gitlink} className="work__repo" target="_blank">
                         <i class="uil uil-github work__repo-icon"></i>
                     </a>
                 </div>
                 :
-                <a href="" className="work__button"> More Details
+                <a href={item.link} className="work__button" target="_blank"> More Details
                     <i className="bx bx-right-arrow-alt work__button-icon"></i>
                 </a>
 

@@ -14,9 +14,12 @@ const About = () => {
                 <div className="about__data">
                     <Info />
                     <p className="about__description">
-                        FrontEnd engineer , I create web pages with UI / UX user interface , Almost two year of experience with different personal projects , and happy Clients
+                        1 year working experience , in a professional work environment ,
+                        and more than 2 years working with startups as freelancer
+                        with several Ui/UX projects, many differnt personal and professional projects
+                        resulting in satisfied clients
                     </p>
-                    <a download="" href={CV} className="button button--flex">DownLoad Resume
+                    <a download="" href={CV} className="button button--flex">Download Resume
                         <svg
                             class="button__icon"
                             xmlns="http://www.w3.org/2000/svg"

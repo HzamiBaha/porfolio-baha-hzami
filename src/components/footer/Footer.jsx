@@ -17,7 +17,7 @@ const Footer = () => {
           </li>
 
           <li>
-            <a href="#contact" className="footer__link">Contact</a>
+            <a href="#qualification" className="footer__link">Journy</a>
           </li>
 
         </ul>
@@ -31,8 +31,8 @@ const Footer = () => {
             <i class="ui uil-linkedin"></i>
           </a>
 
-          <a href="" className="footer__social-link" target="_blank">
-            <i class="ui uil-medium-m"></i>
+          <a href="https://dribbble.com/Baha-hz" className="footer__social-link" target="_blank">
+            <i class="ui uil-dribbble"></i>
           </a>
 
         </div>

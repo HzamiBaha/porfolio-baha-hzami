@@ -8,7 +8,23 @@
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 1.5rem 2rem;
     border-radius: 1.5rem;
+    height: auto !important;
+}
 
+.testamonial_card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.testimonial__card-icon {
+    font-size: 1.25rem;
+    color: var(--title-color);
+    transition: 0.3s;
+}
+
+.testimonial__card-icon :hover {
+    transform: translateY(-0.25rem);
 }
 
 .testimonial__img {
@@ -33,6 +49,10 @@
 
 .swiper-pagination-bullet {
     background-color: var(--text-color) !important;
+}
+
+.swper-slide {
+    height: auto !important;
 }
 
 .swiper-pagination {

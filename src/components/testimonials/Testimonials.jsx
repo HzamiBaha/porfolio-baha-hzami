@@ -31,14 +31,20 @@ const Testimonials = () => {
                         slidesPerView: 2,
                         spaceBetween: 40,
                     },
-                   
+
                 }}
                 modules={[Pagination]}
                 className="testimonial__container">
-                {Data.map(({ id, images, title, description }) => {
+                {Data.map(({ id, images, title, description ,link}) => {
                     return (
                         <SwiperSlide className="testimonial__card" key={id}>
-                            <img src={images} alt="" className="testimonial__img" />
+                            <div className="testamonial_card-header">
+                                <img src={images} alt="" className="testimonial__img" />
+                                <a href={link} className="testimonial__card-icon" target="_blank">
+                                    <i class="uil uil-linkedin"></i>
+                                </a>
+                            </div>
+
                             <h3 className="testimonial__name">{title}</h3>
                             <p className="testimonial__description"> {description} </p>
                         </SwiperSlide>
