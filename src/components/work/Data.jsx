@@ -30,7 +30,7 @@ export const Data = [
         image: Work3,
         title: "Video chat",
         category: "web",
-        link: "https://ubiquitous-moonbeam-db8451.netlify.app",
+        link: "https://video-chat-by-baha-hzami.netlify.app",
         gitlink: "https://github.com/HzamiBaha/video-call",
     },
     {

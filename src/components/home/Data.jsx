@@ -59,7 +59,7 @@ const Data = () => {
             </h3>
             <p className="home__description">
                 Meticulous Front-End Engineer with more than one year of expertise .
-                Have a look into my portfolio I may be your next front-end engnieer.
+                Have a look into my portfolio I may be your next front-end engineer.
             </p>
             <a href="#contact" className="button button--flex">
                 Say Hello
